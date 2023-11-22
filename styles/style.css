@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+label {
+    font-size: 15px;
+}
+
+p {
+    text-decoration: underline;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+img {
+    width: 50px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 24px;
+    background-color: gray;
+    text-align: center;
+}
+
+.campo-unico {
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    border: 3px solid;
+    margin-top: 6px;
+    height: 18px;
+    font-weight: bold;
+    width: 250px;
+}
+
+.varios-campos {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.quantidades {
+    display: flex;
+    margin-left: 325px;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 6px;
+}
+
+.label-quantidade {
+    border: 3px solid;
+    float: left;
+    margin-left: 475px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 6px;
+    height: 18px;
+}
+
+.campo-quantidade {
+    border: 3px solid;
+    margin-top: 6px;
+    height: 18px;
+    font-weight: bold;
+    width: 28px;
+}
+
+.campo-rua {
+    border: 3px solid;
+    margin-top: 6px;
+    height: 18px;
+    font-weight: bold;
+    width: 120px;
+}
+
+.campo-cep {
+    border: 3px solid;
+    margin-top: 6px;
+    height: 18px;
+    font-weight: bold;
+    width: 58px;
+}
+
+.campo-numero {
+    border: 3px solid;
+    margin-top: 6px;
+    height: 18px;
+    font-weight: bold;
+    width: 25px;
+}
+
+.campo-ddd {
+    border: 3px solid;
+    margin-top: 6px;
+    height: 18px;
+    font-weight: bold;
+    width: 30px;
+}
+
+.campo-telefone {
+    border: 3px solid;
+    margin-top: 6px;
+    height: 18px;
+    font-weight: bold;
+    width: 198px;
+}
+
+.botao {
+    border: 3px solid;
+    box-shadow: 5px 5px;
+    width: 38px;
+    height: 18px;
+}
+
+.botoes {
+    margin-top: 70px;
+    gap: 800px;
+    text-align: center;
+}
